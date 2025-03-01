@@ -7,5 +7,5 @@ A simple library for performing basic math operations like addition, subtraction
 Version: 0.1.0
 """
 
-from .operations import add, subtract, multiply, divide
-__all__ = ["add", "subtract", "multiply", "divide"]
+from .operations import sum, subtract, multiply, divide, max, min, size, sort, mean, median, var, std, mode
+__all__ = ["sum", "subtract", "multiply", "divide", "max", "min", "size", "sort", "mean", "median", "var", "std", "mode"]
