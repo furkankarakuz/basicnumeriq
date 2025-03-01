@@ -19,7 +19,7 @@ def _common_operations(numbers: List[Union[int, float]], number_type: str, start
 
 def sum(numbers: List[Union[int, float]]) -> int | float:
     """
-    Compute the sum of a list of numbers.
+    Calculates the sum of a list of numbers.
 
     Args:
         numbers (List[Union[int, float]]): List of numbers.
@@ -36,7 +36,7 @@ def sum(numbers: List[Union[int, float]]) -> int | float:
 
 def subtract(numbers: List[Union[int, float]]) -> int | float:
     """
-    Compute the subtraction of a list of numbers.
+    Calculates the difference of a list of numbers.
 
     Args:
         numbers (List[Union[int, float]]): List of numbers.
@@ -53,7 +53,7 @@ def subtract(numbers: List[Union[int, float]]) -> int | float:
 
 def multiply(numbers: List[Union[int, float]]) -> int | float:
     """
-    Compute the product of a list of numbers.
+    Calculates the product of a list of numbers.
 
     Args:
         numbers (List[Union[int, float]]): List of numbers.
@@ -70,7 +70,7 @@ def multiply(numbers: List[Union[int, float]]) -> int | float:
 
 def divide(numbers: List[Union[int, float]]) -> float:
     """
-    Compute the division of a list of numbers.
+    Calculates the division of a list of numbers.
 
     Args:
         numbers (List[Union[int, float]]): List of numbers.
@@ -87,7 +87,7 @@ def divide(numbers: List[Union[int, float]]) -> float:
 
 def max(numbers: List[Union[int, float]]) -> int | float:
     """
-    Find the maximum number in a list.
+    Finds the maximum number in a list.
 
     Args:
         numbers (List[Union[int, float]]): List of numbers.
@@ -108,7 +108,7 @@ def max(numbers: List[Union[int, float]]) -> int | float:
 
 def min(numbers: List[Union[int, float]]) -> int | float:
     """
-    Find the minimum number in a list.
+    Finds the minimum number in a list.
 
     Args:
         numbers (List[Union[int, float]]): List of numbers.
@@ -129,7 +129,7 @@ def min(numbers: List[Union[int, float]]) -> int | float:
 
 def size(numbers: List[Union[int, float]]) -> int:
     """
-    Compute the size of a list.
+    Returns the size (number of elements) of a list.
 
     Args:
         numbers (List[Union[int, float]]): List of numbers.
@@ -146,7 +146,7 @@ def size(numbers: List[Union[int, float]]) -> int:
 
 def sort(numbers: List[Union[int, float]]) -> List[Union[int, float]]:
     """
-    Sort a list of numbers using quicksort algorithm.
+    Sorts a list of numbers.
 
     Args:
         numbers (List[Union[int, float]]): List of numbers.
@@ -169,7 +169,7 @@ def sort(numbers: List[Union[int, float]]) -> List[Union[int, float]]:
 
 def mean(numbers: List[Union[int, float]]) -> float:
     """
-    Compute the mean of a list of numbers.
+    Calculates the mean (average) of a list of numbers.
 
     Args:
         numbers (List[Union[int, float]]): List of numbers.
@@ -186,7 +186,7 @@ def mean(numbers: List[Union[int, float]]) -> float:
 
 def median(numbers: List[Union[int, float]]) -> float:
     """
-    Compute the mode(s) of a list of numbers.
+    Finds the median of a list of numbers.
 
     Args:
         numbers (List[Union[int, float]]): List of numbers.
@@ -212,7 +212,7 @@ def median(numbers: List[Union[int, float]]) -> float:
 
 def var(numbers: List[Union[int, float]]) -> float:
     """
-    Calculate the variance of a list of numbers.
+    Calculates the variance of a list of numbers.
 
     Args:
         numbers (List[Union[int, float]]): List of numbers.
@@ -229,7 +229,7 @@ def var(numbers: List[Union[int, float]]) -> float:
 
 def std(numbers: List[Union[int, float]]) -> float:
     """
-    Calculate the standard deviation of a list of numbers.
+    Calculates the standard deviation of a list of numbers.
 
     Args:
         numbers (List[Union[int, float]]): List of numbers.

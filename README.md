@@ -1,49 +1,149 @@
-# basicnumeriq Library
+# 📘 basicnumeriq
 
-A simple Python library for basic math operations.
+basicnumeriq is a simple Python module that provides basic mathematical and statistical functions. 
+You can use it to perform various operations on lists of numbers.
 
-## Installation
+## 🔧 Installation
 
-You can install the library using `pip`:
+Clone the repository or include the `basicnumeriq.py` file in your project:
 
 ```bash
-pip install basicnumeriq
+git clone https://github.com/furkankarakuz/basicnumeriq.git
 ```
 
-## Example Usage
+## 🚀 Usage
 
-### Add Operation
+After adding the module to your project, you can use the following functions:
+
+
+### 🔢 sum
+
+Calculates the sum of a list of numbers.
+
+**Example:**
 
 ```python
-from basicnumeriq import add
-
-result = add(10, 5)
-print(result)  # Output: 15
+>>> sum([1, 2, 3])
+6
 ```
 
-### Subtract Operation
+### ➖ subtract
+
+Calculates the difference of a list of numbers.
+
+**Example:**
 
 ```python
-from basicnumeriq import subtract
-
-result = subtract(10, 5)
-print(result)  # Output: 5
+>>> subtract([10, 5, 2])
+3
 ```
 
-### Multiply Operation
+### ✖ multiply
+
+Calculates the product of a list of numbers.
+
+**Example:**
 
 ```python
-from basicnumeriq import multiply
-
-result = multiply(10, 5)
-print(result)  # Output: 50
+>>> multiply([2, 3, 4])
+24
 ```
 
-### Divide Operation
+### ➗ divide
+
+Calculates the division of a list of numbers.
+
+**Example:**
 
 ```python
-from basicnumeriq import divide
+>>> divide([100, 2, 5])
+10.0
+```
 
-result = divide(10, 5)
-print(result)  # Output: 2.0
+### 🔼 max
+
+Finds the maximum number in a list.
+
+**Example:**
+
+```python
+>>> max([1, 2, 3, 4, 5])
+5
+```
+
+### 🔽 min
+
+Finds the minimum number in a list.
+
+**Example:**
+
+```python
+>>> min([1, 2, 3, 4, 5])
+1
+```
+
+### 📏 size
+
+Returns the size (number of elements) of a list.
+
+**Example:**
+
+```python
+>>> size([1, 2, 3, 4])
+4
+```
+
+### 🔀 sort
+
+Sorts a list of numbers.
+
+**Example:**
+
+```python
+>>> sort([3, 1, 4, 1, 5, 9, 2])
+[1, 1, 2, 3, 4, 5, 9]
+```
+
+### 📊 mean
+
+Calculates the mean (average) of a list of numbers.
+
+**Example:**
+
+```python
+>>> mean([1, 2, 3, 4, 5])
+3.0
+```
+
+### 📉 median
+
+Finds the median of a list of numbers.
+
+**Example:**
+
+```python
+>>> median([1, 2, 3, 4, 5])
+3
+```
+
+### 📈 variance
+
+Calculates the variance of a list of numbers.
+
+**Example:**
+
+```python
+>>> var([1, 2, 3, 4, 5])
+2.0
+```
+
+### 📉 standard deviation
+
+Calculates the standard deviation of a list of numbers.
+
+**Example:**
+
+```python
+>>> std([1, 2, 3, 4, 5])
+1.41
 ```
