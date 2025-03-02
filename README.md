@@ -5,10 +5,10 @@ You can use it to perform various operations on lists of numbers.
 
 ## 🔧 Installation
 
-Clone the repository or include the `basicnumeriq.py` file in your project:
+You can install the library using `pip`:
 
 ```bash
-git clone https://github.com/furkankarakuz/basicnumeriq.git
+pip install basicnumeriq
 ```
 
 ## 🚀 Usage
